@@ -13,12 +13,12 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ للـمزيـد من البوتات", url="https://t.me/iziii")],
+        [InlineKeyboardButton("✨ للـمزيـد من البوتات", url="https://t.me/vlod2")],
         [
             InlineKeyboardButton("طـريـقـة الـإسـتخـدام ❔", callback_data="help"),
             InlineKeyboardButton("🎪 حـول 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("🖥️| الـسـورس", url="https://t.me/iziii")],
+        [InlineKeyboardButton("🖥️| الـسـورس", url="https://t.me/vlod2")],
     ]
 
     START = """
@@ -33,7 +33,7 @@ class Data:
 لا أزال أقرأ؟
 يمكنك استخدامي لإنشاء pyrogram (حتى الإصدار 2) وجلسة telethon string. استخدم الأزرار أدناه لمعرفة المزيد!
 
-By @iziii
+By @p9i_u
     """
 
     HELP = """
@@ -50,13 +50,13 @@ By @iziii
     ABOUT = """
 **About This Bot** 
 
-هذا بوت استخراج كود تريمكس و بايروجرام مشغل من @iziii
+هذا بوت استخراج كود تريمكس و بايروجرام مشغل من @p9i_u
 
-كود السورس : [Click Here](https://t.me/iziii)
+كود السورس : [Click Here](https://t.me/vlod2)
 
 برمجة البوت : [Pyrogram](https://docs.pyrogram.org)
 
 لغة البوت : [Python](https://www.python.org)
 
-المطور : @iziii
+المطور : @p9i_u
     """
